@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "MyBodwell",
+    "slug": "MyBodwell-PRD",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.1.4",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/images/splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#673AB7"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mybodwellv2.app",
+      "icon": "./assets/images/icon_ios.png"
+    },
+    "android": {
+      "package": "app.bodwell.com",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCDqVtm2EfNyZoWpgZPL6MQ7RxFmSK25K0"
+        }
+      },
+      "versionCode": 11,
+      "icon": "./assets/images/icon_android.png"
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content"
+    },
+    "description": ""
+  }
+}
