@@ -27,10 +27,8 @@
       "icon": "./assets/images/icon_ios.png"
     },
     "android": {
-      "package": "app.bodwell.com",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyCDqVtm2EfNyZoWpgZPL6MQ7RxFmSK25K0"
         }
       },
       "versionCode": 11,
